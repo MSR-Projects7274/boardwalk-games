@@ -20,11 +20,18 @@ body {
 h1, h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .sub-heading-color {
     color: var(--highlight-color);
 }
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 
 /*NavBar CSS*/
 #navbar {
@@ -33,6 +40,12 @@ h1, h2, h3 {
 
 #navbar .logo {
     width: 30px;
+}
+
+/*Header CSS*/
+
+#header .lead {
+    font-family: var(--secondary-font);
 }
 
 
