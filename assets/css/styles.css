@@ -79,3 +79,37 @@ h1, h2 {
     background-color: lightgray;
 }
 */
+
+/* Media Queries*/
+
+/*Medium Sized devices (768px and Up)*/
+@media screen and (min-width: 768px) {
+    /*Makes all Service cards the same height for consistency*/
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
+/*Larger devices (992px and Up)*/
+@media screen and (min-width: 992px) {
+    /*Makes all Service cards the same height for consistency*/
+    #services .card-body {
+        min-height: auto;
+    }
+}
+
+/*XL Devices (1200px and Up)*/
+@media screen and (min-width: 1200px) {
+    /*Makes all Service cards the same height for consistency*/
+    #services .card-body {
+        min-height: 220px;
+    }
+}
+
+/*XXL Devices (1400px and Up)*/
+@media screen and (min-width: 1400px) {
+    /*Makes all Service cards the same height for consistency*/
+    #services .card-body {
+        min-height: 195px;
+    }
+}
