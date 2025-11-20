@@ -68,6 +68,15 @@ h1, h2 {
     margin-bottom: 1.5rem;
 }
 
+/*Game Library New and Favourite Sections*/
+#new-games .card, #fav-games .card {
+    border: none;
+}
+
+#fav-games .card-body {
+    text-align: left;
+}
+
 /*Testing Processes - Delete when testing is finished*/
 
 /*.container .row {
