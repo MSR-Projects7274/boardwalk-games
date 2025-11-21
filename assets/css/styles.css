@@ -109,6 +109,10 @@ h1, h2 {
     color: var(--secondary-color);
 }
 
+#contact .table-dark * {
+    background-color: transparent;
+}
+
 /*Testing Processes - Delete when testing is finished*/
 
 /*.container .row {
