@@ -96,13 +96,11 @@ h1, h2 {
 
 /*Events*/
 
-#events .events-text {
+.discount-offer {
     background-color: var(--highlight-color);
+    color: white;
+    font-weight: bold;
 }
-
-
-
-
 
 /*Game Library New and Favourite Sections*/
 #new-games .card, #fav-games .card {
@@ -163,12 +161,23 @@ h1, h2 {
 
 /* Media Queries*/
 
+@media screen and (min-width: 320px) {
+    table {
+        font-size: 0.7rem;
+    }
+}
+
+
 /*Medium Sized devices (768px and Up)*/
 @media screen and (min-width: 768px) {
     /*Makes all Service cards the same height for consistency*/
     #services .card-body {
         min-height: 191px;
     }
+    table {
+        font-size: 1rem;
+    }
+    
 }
 
 /*Larger devices (992px and Up)*/
@@ -176,6 +185,9 @@ h1, h2 {
     /*Makes all Service cards the same height for consistency*/
     #services .card-body {
         min-height: auto;
+    }
+    table {
+        font-size: 1rem;
     }
 }
 
@@ -185,6 +197,9 @@ h1, h2 {
     #services .card-body {
         min-height: 220px;
     }
+    table {
+        font-size: 1rem;
+    }
 }
 
 /*XXL Devices (1400px and Up)*/
@@ -192,5 +207,8 @@ h1, h2 {
     /*Makes all Service cards the same height for consistency*/
     #services .card-body {
         min-height: 195px;
+    }
+    table {
+        font-size: 1rem;
     }
 }
