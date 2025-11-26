@@ -100,6 +100,7 @@ h1, h2 {
     background-color: var(--highlight-color);
     color: white;
     font-weight: bold;
+    padding: 4px;
 }
 
 /*Game Library New and Favourite Sections*/
@@ -165,6 +166,10 @@ h1, h2 {
     table {
         font-size: 0.7rem;
     }
+
+    .discount-offer {
+        font-size: 0.8rem;
+    }
 }
 
 
@@ -175,6 +180,10 @@ h1, h2 {
         min-height: 191px;
     }
     table {
+        font-size: 1rem;
+    }
+
+    .discount-offer {
         font-size: 1rem;
     }
     
@@ -189,6 +198,10 @@ h1, h2 {
     table {
         font-size: 1rem;
     }
+
+    .discount-offer {
+        font-size: 1rem;
+    }
 }
 
 /*XL Devices (1200px and Up)*/
@@ -200,6 +213,10 @@ h1, h2 {
     table {
         font-size: 1rem;
     }
+
+    .discount-offer {
+        font-size: 1rem;
+    }
 }
 
 /*XXL Devices (1400px and Up)*/
@@ -209,6 +226,10 @@ h1, h2 {
         min-height: 195px;
     }
     table {
+        font-size: 1rem;
+    }
+
+    .discount-offer {
         font-size: 1rem;
     }
 }
