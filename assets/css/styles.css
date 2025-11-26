@@ -94,6 +94,16 @@ h1, h2 {
     margin-bottom: 1.5rem;
 }
 
+/*Events*/
+
+#events .events-text {
+    background-color: var(--highlight-color);
+}
+
+
+
+
+
 /*Game Library New and Favourite Sections*/
 #new-games .card, #fav-games .card {
     border: none;
