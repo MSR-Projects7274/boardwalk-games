@@ -112,6 +112,12 @@ h1, h2 {
     text-align: left;
 }
 
+/*Reserve a Game Section*/
+
+#reserve-form .reserve-form-btn{
+    text-align: right;
+}
+
 /*Footer Contact Section*/
 
 #contact {
